@@ -15,36 +15,10 @@ class Home extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image
-          source={require('/Users/alokmishra/Documents/demoproject/cottage.jpg')}
-          style={{width: '20%', height: '10%'}}
-        />
-        <Text>{'username is : ' + this.state.text} </Text>
-        <Text>{'Password is : ' + this.state.input}</Text>
-        <TextInput
-          style={{
-            height: 50,
-            width: '90%',
-            borderColor: 'red',
-            borderWidth: 1,
-           backgroundColor:'green',
-            //padding:25,
-            color:'#fff'
-          }}
-          onChangeText={text => this.setState({text})}
-        />
-        <TextInput
-          style={{
-            height: 50,
-            width: '90%',
-            borderColor: 'red',
-            backgroundColor:'pink',
-            //padding:25,
-            color:'green',
-            borderWidth: 1,
-          }}
-          onChangeText={input => this.setState({input})}
-        />
+        <View style={[ styles.child,{backgroundColor: '#000'}]} />
+        {/* <View style={[ styles.child, {backgroundColor: 'green'}]} />
+        <View style={[ styles.child, {backgroundColor: 'orange'},{flex:2}]} /> */}
+
       </View>
     );
   }
@@ -55,10 +29,17 @@ class Home extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-      backgroundColor:'grey',
+    backgroundColor: '#f03900',
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+   // alignItems:"flex-end",
+    justifyContent:"center"
+    
+  },
+  child: {
+    height: 100,
+    width: 50,
+    backgroundColor: '#800000',
+   alignSelf:"flex-end"
   },
 });
 
