@@ -60,7 +60,7 @@ class Home extends React.Component {
               <Text style={{padding:10,marginTop:20,fontSize:20,fontWeight:'bold'}}>Unlimited Data</Text>
                   <View style={[styles.child, {flexDirection:'row',backgroundColor: '#fff',width: '95%',marginLeft:'2.5%',flex:0.5,borderBottomColor:'#000',borderBottomWidth:1}]}>
                   <Text style={{fontSize:15,marginTop:'7%'}}> Validity {"\n"} 30 days </Text>
-                   <Text style={{fontSize:15,marginTop:"7%"}}> Speed {"\n"} 50 Mbps</Text>
+                   <Text style={{fontSize:15,marginTop:"7%"}}>    | Speed {"\n"}    | 50 Mbps</Text>
 
                     <Image
                     source={require('/Users/alokmishra/Documents/demoproject/money.png')}
@@ -72,7 +72,7 @@ class Home extends React.Component {
 
                 <View style={[styles.child, {flexDirection:'row',backgroundColor: '#fff',width: '95%',marginLeft:'2.5%',flex:0.5}]}>
                 <Text style={{fontSize:15,marginTop:'7%'}}> Validity {"\n"} 30 days </Text>
-                <Text style={{fontSize:15,marginTop:'7%'}}> Speed {"\n"} 50 Mbps</Text>
+                <Text style={{fontSize:15,marginTop:'7%'}}>    | Speed {"\n"}    | 50 Mbps</Text>
 
                   <Image
                   source={require('/Users/alokmishra/Documents/demoproject/money.png')}
