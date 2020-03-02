@@ -40,7 +40,7 @@ class Home extends React.Component {
             <TextInput placeholder="₹ 999" placeholderTextColor="#000" style={{padding:4,fontSize:45,borderBottomColor:"#00f",borderBottomWidth:2,alignSelf:'center',marginTop:20,fontWeight:'bold'}}></TextInput>
             {/* <Button title="Proceed to Payment" backgroundColor="#f0f" style={{color:'#f0f'}}></Button> */}
             <Text style={
-              {alignSelf:'center',backgroundColor:"#DB326C",color:"#fff",fontSize:20,padding:10,marginTop:8}
+              {alignSelf:'center',backgroundColor:"#DB326C",color:"#fff",fontSize:20,padding:10,marginTop:8,}
             }>Proceed to Payment</Text>
         </View>
 
